@@ -1,0 +1,64 @@
+@import '_commons/_vars.scss';
+@import '_commons/_fonts.scss';
+@import '_commons/_margins-paddings.scss';
+@import '_commons/_geral.scss';
+@import '_commons/_display.scss';
+
+@import 'components/header.scss';
+@import 'components/loader.scss';
+@import 'components/player.scss';
+@import 'components/sound_bars.scss';
+
+.div-results-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.txt-search {
+  @include textBold48($color2);
+
+  padding: 0 0 8px 0 !important;
+
+  &:hover, &:focus {
+    color: $color3 !important;
+  }
+}
+
+
+/* RESPONSIVE LAYOUT */
+
+/* EXTRA LARGE */
+@media (min-width: 1200px) {}
+
+/* LARGE */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* MEDIUM */
+@media (min-width: 768px) and (max-width: 991px) {
+	.txt-search {
+		@include textBold36($color2);
+	}
+}
+
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767px) {
+	.txt-search {
+		@include textBold36($color2);
+	}
+}
+
+/* EXTRA SMALL */
+@media (max-width: 575px) {
+	.txt-search {
+		@include textBold36($color2);
+	}
+}
+
+/* EXTRA TINNY */
+@media (max-width: 360px) {
+	.txt-search {
+		@include textBold24($color2);
+	}
+}

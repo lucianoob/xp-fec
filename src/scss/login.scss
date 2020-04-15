@@ -1,0 +1,46 @@
+@import '_commons/_vars.scss';
+@import '_commons/_fonts.scss';
+@import '_commons/_margins-paddings.scss';
+@import '_commons/_geral.scss';
+@import '_commons/_display.scss';
+@import '_commons/_forms.scss';
+@import '_commons/_buttons.scss';
+
+@import 'components/header.scss';
+
+
+/* RESPONSIVE LAYOUT */
+
+/* EXTRA LARGE */
+@media (min-width: 1200px) {}
+
+/* LARGE */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* MEDIUM */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/* EXTRA SMALL */
+@media (max-width: 575px) {
+  	.div-center {
+	  	position: relative;
+	    left: 0;
+	    transform: none;
+	    text-align: center;
+    	margin: 32px;
+
+    	.frm-login {
+			text-align: left !important;
+		}
+  	}
+
+	input[type="text"] {
+    	padding: 8px 0;
+    }
+}
+
+/* EXTRA TINNY */
+@media (max-width: 360px) {}

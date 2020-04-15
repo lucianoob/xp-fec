@@ -1,0 +1,142 @@
+@import '_commons/_vars.scss';
+@import '_commons/_fonts.scss';
+@import '_commons/_margins-paddings.scss';
+@import '_commons/_geral.scss';
+@import '_commons/_display.scss';
+@import '_commons/_buttons.scss';
+
+@import 'components/header.scss';
+@import 'components/loader.scss';
+@import 'components/player.scss';
+@import 'components/sound_bars.scss';
+
+.div-tracks {
+  height: 60vh;
+  overflow-y: auto;
+  
+  .div-track {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: rgba(153, 153, 153, 0.5);
+    }
+
+    &-number {
+      @include text14($color2);
+    }
+
+    &-name {
+      @include text14($color1);
+    }
+
+    &-duration {
+      @include text14($color2);
+    }
+  }
+}
+
+/* RESPONSIVE LAYOUT */
+
+/* EXTRA LARGE */
+@media (min-width: 1200px) {}
+
+/* LARGE */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* MEDIUM */
+@media (min-width: 768px) and (max-width: 991px) {
+  .div-artist-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .div-artist-details {
+    max-height: 65px;
+    overflow-y: auto;
+  }
+
+  .p-result-title {
+    min-height: auto;
+  }
+
+  .p-result-subtitle {
+    min-height: auto;
+    margin: 9px;
+  }
+}
+
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767px) {
+  .div-artist {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  }
+
+  .div-artist-data {
+    padding-left: 24px;
+  }
+
+  .p-result-title {
+    min-height: auto;
+  }
+
+  .p-result-subtitle {
+    min-height: auto;
+    margin: 9px;
+  }
+}
+
+/* EXTRA SMALL */
+@media (max-width: 575px) {
+  .div-artist {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 32px;
+  }
+
+  .div-artist-data {
+    padding-left: 24px;
+  }
+
+  .p-result-title {
+    min-height: auto;
+  }
+
+  .p-result-subtitle {
+    min-height: auto;
+    margin: 9px;
+  }
+}
+
+/* EXTRA TINNY */
+@media (max-width: 360px) {
+  .div-artist {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    align-items: center;
+  }
+
+  .div-artist-data {
+    padding-left: 24px;
+  }
+
+  .p-result-title {
+    min-height: auto;
+  }
+
+  .p-result-subtitle {
+    min-height: auto;
+    margin: 9px;
+  }
+
+  .div-tracks {
+    padding: 0 16px !important;
+  }
+}

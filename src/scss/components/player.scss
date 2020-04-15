@@ -1,0 +1,18 @@
+
+.div-player{
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: $color0;
+
+  #plSample{
+    width: 90%;
+    opacity: 0.1;
+    height: 30px;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

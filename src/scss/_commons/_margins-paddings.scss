@@ -1,0 +1,455 @@
+// MARGINS E PADDINGS
+.w-100 {
+  width: 100%;
+}
+@for $i from 0 through 100 {
+  // MARGINS
+  .mt-#{$i}-n {
+    margin-top: #{$i}px !important;
+  }
+
+  .mb-#{$i}-n {
+    margin-bottom: #{$i}px !important;
+  }
+
+  .mr-#{$i}-n {
+    margin-right: #{$i}px !important;
+  }
+
+  .ml-#{$i}-n {
+    margin-left: #{$i}px !important;
+  }
+
+  .my-#{$i}-n {
+    margin-top: #{$i}px !important;
+    margin-bottom: #{$i}px !important;
+  }
+
+  .mx-#{$i}-n {
+    margin-right: #{$i}px !important;
+    margin-left: #{$i}px !important;
+  }
+
+  // PADDINGS
+  .pt-#{$i}-n {
+    padding-top: #{$i}px !important;
+  }
+
+  .pb-#{$i}-n {
+    padding-bottom: #{$i}px !important;
+  }
+
+  .pr-#{$i}-n {
+    padding-right: #{$i}px !important;
+  }
+
+  .pl-#{$i}-n {
+    padding-left: #{$i}px !important;
+  }
+
+  .py-#{$i}-n {
+    padding-top: #{$i}px !important;
+    padding-bottom: #{$i}px !important;
+  }
+
+  .px-#{$i}-n {
+    padding-right: #{$i}px !important;
+    padding-left: #{$i}px !important;
+  }
+}
+
+////////////////////
+// RESPONSIVO
+////////////////////
+/* EXTRA LARGE */
+@media (min-width: 1200px) {
+  .w-100-xl {
+    width: 100% !important;
+  }
+
+  .text-right-xl {
+    text-align: right !important;
+  }
+
+  .text-left-xl {
+    text-align: left !important;
+  }
+
+  .text-center-xl {
+    text-align: center !important;
+  }
+
+  @for $i from 0 through 100 {
+    .mt-#{$i}-n-xl {
+      margin-top: #{$i}px !important;
+    }
+
+    .mb-#{$i}-n-xl {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mr-#{$i}-n-xl {
+      margin-right: #{$i}px !important;
+    }
+
+    .ml-#{$i}-n-xl {
+      margin-left: #{$i}px !important;
+    }
+
+    .my-#{$i}-n-xl {
+      margin-top: #{$i}px !important;
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mx-#{$i}-n-xl {
+      margin-right: #{$i}px !important;
+      margin-left: #{$i}px !important;
+    }
+
+    .pt-#{$i}-n-xl {
+      padding-top: #{$i}px !important;
+    }
+
+    .pb-#{$i}-n-xl {
+      padding-bottom: #{$i}px !important;
+    }
+
+    .pr-#{$i}-n-xl {
+      padding-right: #{$i}px !important;
+    }
+
+    .pl-#{$i}-n-xl {
+      padding-left: #{$i}px !important;
+    }
+
+    .py-#{$i}-n-xl {
+      padding-top: #{$i}px !important;
+      padding-bottom: #{$i}px !important;
+    }
+
+    .px-#{$i}-n-xl {
+      padding-right: #{$i}px !important;
+      padding-left: #{$i}px !important;
+    }
+  }
+}
+
+/* LARGE */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .w-100-lg {
+    width: 100% !important;
+  }
+
+  .text-right-lg {
+    text-align: right !important;
+  }
+
+  .text-left-lg {
+    text-align: left !important;
+  }
+
+  .text-center-lg {
+    text-align: center !important;
+  }
+
+  @for $i from 0 through 100 {
+    .mt-#{$i}-n-lg {
+      margin-top: #{$i}px !important;
+    }
+
+    .mb-#{$i}-n-lg {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mr-#{$i}-n-lg {
+      margin-right: #{$i}px !important;
+    }
+
+    .ml-#{$i}-n-lg {
+      margin-left: #{$i}px !important;
+    }
+
+    .my-#{$i}-n-lg {
+      margin-top: #{$i}px !important;
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mx-#{$i}-n-lg {
+      margin-right: #{$i}px !important;
+      margin-left: #{$i}px !important;
+    }
+
+    .pt-#{$i}-n-lg {
+      padding-top: #{$i}px !important;
+    }
+
+    .pb-#{$i}-n-lg {
+      padding-bottom: #{$i}px !important;
+    }
+
+    .pr-#{$i}-n-lg {
+      padding-right: #{$i}px !important;
+    }
+
+    .pl-#{$i}-n-lg {
+      padding-left: #{$i}px !important;
+    }
+
+    .py-#{$i}-n-lg {
+      padding-top: #{$i}px !important;
+      padding-bottom: #{$i}px !important;
+    }
+
+    .px-#{$i}-n-lg {
+      padding-right: #{$i}px !important;
+      padding-left: #{$i}px !important;
+    }
+  }
+}
+
+/* MEDIUM */
+@media (min-width: 768px) and (max-width: 991px) {
+  .w-100-md {
+    width: 100% !important;
+  }
+
+  .text-right-md {
+    text-align: right !important;
+  }
+
+  .text-left-md {
+    text-align: left !important;
+  }
+
+  .text-center-md {
+    text-align: center !important;
+  }
+
+  @for $i from 0 through 100 {
+    .mt-#{$i}-n-md {
+      margin-top: #{$i}px !important;
+    }
+
+    .mb-#{$i}-n-md {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mr-#{$i}-n-md {
+      margin-right: #{$i}px !important;
+    }
+
+    .ml-#{$i}-n-md {
+      margin-left: #{$i}px !important;
+    }
+
+    .my-#{$i}-n-md {
+      margin-top: #{$i}px !important;
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mx-#{$i}-n-md {
+      margin-right: #{$i}px !important;
+      margin-left: #{$i}px !important;
+    }
+
+    .pt-#{$i}-n-md {
+      padding-top: #{$i}px !important;
+    }
+
+    .pb-#{$i}-n-md {
+      padding-bottom: #{$i}px !important;
+    }
+
+    .pr-#{$i}-n-md {
+      padding-right: #{$i}px !important;
+    }
+
+    .pl-#{$i}-n-md {
+      padding-left: #{$i}px !important;
+    }
+
+    .py-#{$i}-n-md {
+      padding-top: #{$i}px !important;
+      padding-bottom: #{$i}px !important;
+    }
+
+    .px-#{$i}-n-md {
+      padding-right: #{$i}px !important;
+      padding-left: #{$i}px !important;
+    }
+  }
+}
+
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767px) {
+  .w-100-sm {
+    width: 100% !important;
+  }
+
+  .text-right-sm {
+    text-align: right !important;
+  }
+
+  .text-left-sm {
+    text-align: left !important;
+  }
+
+  .text-center-sm {
+    text-align: center !important;
+  }
+
+  @for $i from 0 through 100 {
+    .mt-#{$i}-n-sm {
+      margin-top: #{$i}px !important;
+    }
+
+    .mb-#{$i}-n-sm {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mr-#{$i}-n-sm {
+      margin-right: #{$i}px !important;
+    }
+
+    .ml-#{$i}-n-sm {
+      margin-left: #{$i}px !important;
+    }
+
+    .my-#{$i}-n-sm {
+      margin-top: #{$i}px !important;
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mx-#{$i}-n-sm {
+      margin-right: #{$i}px !important;
+      margin-left: #{$i}px !important;
+    }
+
+    .pt-#{$i}-n-sm {
+      padding-top: #{$i}px !important;
+    }
+
+    .pb-#{$i}-n-sm {
+      padding-bottom: #{$i}px !important;
+    }
+
+    .pr-#{$i}-n-sm {
+      padding-right: #{$i}px !important;
+    }
+
+    .pl-#{$i}-n-sm {
+      padding-left: #{$i}px !important;
+    }
+
+    .py-#{$i}-n-sm {
+      padding-top: #{$i}px !important;
+      padding-bottom: #{$i}px !important;
+    }
+
+    .px-#{$i}-n-sm {
+      padding-right: #{$i}px !important;
+      padding-left: #{$i}px !important;
+    }
+  }
+}
+
+/* EXTRA SMALL */
+@media (max-width: 575px) {
+  .w-100-xs {
+    width: 100% !important;
+  }
+
+  .text-right-xs {
+    text-align: right !important;
+  }
+
+  .text-left-xs {
+    text-align: left !important;
+  }
+
+  .text-center-xs {
+    text-align: center !important;
+  }
+
+  .justify-content-xs-right {
+    justify-content: right !important;
+  }
+
+  .justify-content-xs-left {
+    justify-content: left !important;
+  }
+
+  .justify-content-xs-center {
+    justify-content: center !important;
+  }
+
+  .flex-xs-wrap {
+    flex-wrap: wrap !important;
+  }
+
+  .flex-xs-nowrap {
+    flex-wrap: nowrap !important;
+  }
+
+  .flex-xs-nowrap {
+    flex-wrap: nowrap !important;
+  }
+
+  @for $i from 0 through 100 {
+    .mt-#{$i}-n-xs {
+      margin-top: #{$i}px !important;
+    }
+
+    .mb-#{$i}-n-xs {
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mr-#{$i}-n-xs {
+      margin-right: #{$i}px !important;
+    }
+
+    .ml-#{$i}-n-xs {
+      margin-left: #{$i}px !important;
+    }
+
+    .my-#{$i}-n-xs {
+      margin-top: #{$i}px !important;
+      margin-bottom: #{$i}px !important;
+    }
+
+    .mx-#{$i}-n-xs {
+      margin-right: #{$i}px !important;
+      margin-left: #{$i}px !important;
+    }
+
+    .pt-#{$i}-n-xs {
+      padding-top: #{$i}px !important;
+    }
+
+    .pb-#{$i}-n-xs {
+      padding-bottom: #{$i}px !important;
+    }
+
+    .pr-#{$i}-n-xs {
+      padding-right: #{$i}px !important;
+    }
+
+    .pl-#{$i}-n-xs {
+      padding-left: #{$i}px !important;
+    }
+
+    .py-#{$i}-n-xs {
+      padding-top: #{$i}px !important;
+      padding-bottom: #{$i}px !important;
+    }
+
+    .px-#{$i}-n-xs {
+      padding-right: #{$i}px !important;
+      padding-left: #{$i}px !important;
+    }
+  }
+}
+
+////////////////////
+// FIM RESPONSIVO
+////////////////////

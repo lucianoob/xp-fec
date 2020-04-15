@@ -1,0 +1,167 @@
+
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.p-title {
+  @include text14($color3);
+}
+
+.div-center {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+}
+
+.div-container {
+  margin: 48px 95px;
+}
+
+.div-image {
+  width: 128px;
+  height: 128px;
+  border: 1px solid $color3;
+  background-color: $color2;
+  background-size: cover;
+}
+
+.div-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-result {
+  width: 128px;
+  padding: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(153, 153, 153, 0.5);
+  }
+}
+
+.div-artist {
+  width: 200px;
+  padding-top: 16px;
+  padding-right: 16px;
+  border-right: 0.1rem solid $color4;
+}
+
+.div-artist-image {
+  width: 200px;
+  height: 200px;
+}
+
+.p-result-title {
+  @include text14($color1);
+  text-align: center;
+  min-height: 32px;
+}
+
+.p-result-subtitle {
+  @include text14($color2);
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-height: 30px;
+}
+
+
+/* RESPONSIVE LAYOUT */
+
+/* EXTRA LARGE */
+@media (min-width: 1200px) {
+  .flex-row-xl {
+    flex-direction: row;
+  }
+
+  .flex-column-xl {
+    flex-direction: column;
+  }
+}
+
+/* LARGE */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .flex-row-lg {
+    flex-direction: row;
+  }
+
+  .flex-column-lg {
+    flex-direction: column;
+  }
+}
+
+/* MEDIUM */
+@media (min-width: 768px) and (max-width: 991px) {
+  .flex-row-md {
+    flex-direction: row;
+  }
+
+  .flex-column-md {
+    flex-direction: column;
+  }
+
+  .div-container {
+    margin: 48px 32px;
+  }
+}
+
+/* SMALL */
+@media (min-width: 576px) and (max-width: 767px) {
+  .flex-row-sm {
+    flex-direction: row;
+  }
+
+  .flex-column-sm {
+    flex-direction: column;
+  }
+
+  .div-container {
+    margin: 48px 32px;
+  }
+}
+
+/* EXTRA SMALL */
+@media (max-width: 575px) {
+  .flex-row-xs {
+    flex-direction: row;
+  }
+
+  .flex-column-xs {
+    flex-direction: column;
+  }
+
+  .div-container {
+    margin: 48px 32px;
+  }
+}
+
+/* EXTRA TINNY */
+@media (max-width: 360px) {
+  .flex-row-xt {
+    flex-direction: row;
+  }
+
+  .flex-column-xt {
+    flex-direction: column;
+  }
+
+  .div-container {
+    margin: 24px 16px 32px 16px;
+  }
+}

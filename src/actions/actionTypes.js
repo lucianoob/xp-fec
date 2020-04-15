@@ -1,0 +1,3 @@
+
+export const SEARCH_RECENTS = 'SEARCH_RECENTS';
+export const SEARCH_LAST = 'SEARCH_LAST';

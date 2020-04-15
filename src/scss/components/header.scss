@@ -1,0 +1,29 @@
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logoff {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.h1-title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.div-header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  align-items: center;
+  margin-right: 32px;
+
+  &-logo {
+    cursor: pointer;
+  }
+}

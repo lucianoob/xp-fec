@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$font_family: 'Roboto', serif;
+
+
+@mixin textBold48($color) {
+    font-size: 48px !important;
+    color: $color !important;
+    font-family: $font_family !important;
+    font-weight: bold !important;
+}
+
+@mixin textBold36($color) {
+    font-size: 36px !important;
+    color: $color !important;
+    font-family: $font_family !important;
+    font-weight: bold !important;
+}
+
+@mixin textBold24($color) {
+    font-size: 24px !important;
+    color: $color !important;
+    font-family: $font_family !important;
+    font-weight: bold !important;
+}
+
+@mixin text24($color) {
+    font-size: 24px !important;
+    color: $color !important;
+    font-family: $font_family !important;
+}
+
+@mixin text18($color) {
+    font-size: 18px !important;
+    color: $color !important;
+    font-family: $font_family !important;
+}
+
+@mixin text16($color) {
+    font-size: 16px !important;
+    color: $color !important;
+    font-family: $font_family !important;
+}
+
+@mixin text14($color) {
+    font-size: 14px !important;
+    color: $color !important;
+    font-family: $font_family !important;
+}

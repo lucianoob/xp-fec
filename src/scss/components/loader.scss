@@ -1,0 +1,12 @@
+.div-loader {
+  opacity: 0.3;
+  -webkit-animation: a_loader 2s infinite ease-out;
+  -moz-animation: a_loader 2s infinite ease-out;
+  -o-animation: a_loader 2s infinite ease-out;
+  animation: a_loader 2s infinite ease-out;
+}
+
+@keyframes a_loader {
+  0% {opacity: 0.3;}
+  100% {opacity: 0.1;}
+}

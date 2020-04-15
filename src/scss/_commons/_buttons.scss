@@ -1,0 +1,20 @@
+
+.btn {
+  cursor: pointer;
+  border-radius: 25px;
+  border-style: solid;
+  padding: 10px 40px;
+  background: transparent;
+  color: $color3;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  min-height: 48px;
+
+  &:hover {
+      background-color: $color2;
+      color: $color0;
+  }
+}
