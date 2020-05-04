@@ -41,5 +41,17 @@ Este teste tem as seguintes funcionalidades:
 
 ## Telas
 
-# Login
+### Login
 ![Tela de Login](/images/xp_fec01.png)
+
+### Principal (Busca)
+![Tela Principal (Busca)](/images/xp_fec02.png)
+
+### Artista
+![Tela de Artista](/images/xp_fec03.png)
+
+### Álbum
+![Tela de Álbum](/images/xp_fec04.png)
+
+### Faixas
+![Faixas na Busca](/images/xp_fec05.png)
