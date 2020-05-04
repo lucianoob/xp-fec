@@ -38,3 +38,8 @@ Este teste tem as seguintes funcionalidades:
 - Na lista de música da tela principal, permite escutar um preview da música (se disponível).
 - Na tela de detalhe do artista é possível visualizar os dados principais do artista, assim como os albuns do artista.
 - Na tela de detalhe do álbum é possível visualizar os detalhes do album, assim como as faixas e ouvir um preview de cada faixa (se disponível).
+
+## Telas
+
+# Login
+![Tela de Login](/images/xp_fec01.png)
